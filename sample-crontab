@@ -1,0 +1,5 @@
+10 04 /usr/bin/foo
+13 30 /usr/bin/bar
+* 15 /usr/bin/baz
+10 * /usr/bin/boo
+* 00,15,30,45 /usr/bin/coo
