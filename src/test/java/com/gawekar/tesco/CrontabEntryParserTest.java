@@ -36,6 +36,7 @@ class CrontabEntryParserTest {
         //For 1hr  = 60 entries
         assertEquals(true, cronjobs.isPresent());
         assertEquals(60, cronjobs.get().getExecutionTimes().size());
+        assertEquals("/some/executable", cronjobs.get().getFileName());
     }
 
 
